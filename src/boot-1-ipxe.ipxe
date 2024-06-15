@@ -1,6 +1,6 @@
 #!ipxe
 dhcp
-chain --replace --autofree auth.ipxe
+chain --replace --autofree http://kernel.ezgaming.local:9999/boot/auth.ipxe
 
 # Boot <boot-url>/<boot-dir>/hostname-<hostname>.ipxe
 # if hostname DHCP variable is set and script is present
